@@ -1,0 +1,5 @@
+service : {
+    get_balance : () -> (nat);
+    send_tokens : (nat, principal) -> (result);
+    receive_tokens : (nat) -> ();
+};
