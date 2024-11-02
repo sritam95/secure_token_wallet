@@ -1,0 +1,23 @@
+{
+    "$schema": "http://dfx.org/schemas/v1/dfx.json",
+    "canisters": {
+      "icp_token_wallet": {
+        "type": "rust",
+        "main": "src/main.rs",
+        "candid": "icp_token_wallet.did"
+      }
+    },
+    "networks": {
+      "local": {
+        "type": "local"
+      },
+      "ic": {
+        "type": "ic",
+        "provider": "https://ic0.app"
+      }
+    },
+    "defaults": {
+      "network": "local"
+    }
+  }
+  

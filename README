@@ -1,0 +1,30 @@
+README.md
+Project Name: secure Token Wallet
+Overview
+This project implements a secure token wallet on the Internet Computer Protocol (ICP) blockchain. The wallet supports basic functionalities like sending, receiving, and querying balances of IRCRC2 tokens.
+Prerequisites
+ * DFX: Install the DFX toolkit: [invalid URL removed]
+ * Node.js and npm: Required for frontend development (if applicable)
+Getting Started
+ * Clone the Repository:
+   git clone https://github.com/sritam95/secure_token_wallet.git
+
+
+ * Build and Deploy the Smart Contract:
+  * cargo build
+  * cargo run
+
+{ there is mistake in dfx json thats why unable to build but you can use cargo method to run and test}
+Usage
+ * Send Tokens: Enter the recipient address and the amount of tokens to send.
+ * Receive Tokens: Share your wallet address with others to receive tokens.
+ * Check Balance: View your current token balance.
+
+Contributing
+We welcome contributions to improve the security, performance, and user experience of this token wallet. Feel free to submit pull requests or report issues on the GitHub repository.
+
+Additional Notes
+ * Customization: You can customize the wallet's appearance and functionality to suit your specific needs.
+ * Advanced Features: Explore advanced features like token swaps, staking, and governance.
+ * Community Support: Engage with the ICP community for help and discussions.
+Remember to replace placeholders like your-username with actual values and adjust commands as needed.

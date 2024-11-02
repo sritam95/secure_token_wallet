@@ -1,0 +1,12 @@
+[package]
+name = "icp_token_wallet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ic-cdk = "0.16.0"
+ic-cdk-macros = "0.16.0"
+ic_principal = "0.1.1"   # Ensure this is included for the Principal type
+candid = "0.10.4"  # Make sure this is the version you want to use
+serde = { version = "1.0", features = ["derive"] }
+typenum = "1.15" 
