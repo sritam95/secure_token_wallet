@@ -9,7 +9,7 @@ Getting Started
  * Clone the Repository:
    git clone https://github.com/sritam95/secure_token_wallet.git
 
-
+* Put main.rs in src folder(if not exist create)
  * Build and Deploy the Smart Contract:
   * cargo build
   * cargo run
